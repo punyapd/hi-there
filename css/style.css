@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.container
+{
+	width:1140px;
+	margin: auto;
+	min-height: 800px;
+	border-radius: 15px;
+	background: #fff;
+}
+.row
+{
+	min-height: 15px;
+
+}
+.col100
+{
+	width:100%;
+
+}
+.col75
+{
+	width:75%;
+	float: left;
+}
+.col50
+{
+	width:50%;
+	float: left;
+}
+.col25
+{
+	width:25%;
+	float: left;
+}
+.clr
+{
+	clear: both;
+}
+#social
+{
+	position: fixed;
+	top:200px;
+	right: 0;
+	width:50px;
+	min-height:200px;
+	background:rgba(255,0,0,0.3);
+	z-index: 9999;
+	color:#444;
+	font-size: 30px;
+	padding: 10px 5px;
+}
+#social i
+{
+	padding:10px;
+
+}
+
+.banner
+{
+	background:url('../img/banner.jpg');
+	width:100%;
+	min-height:150px;
+	background-size: cover;
+}
+
+.menu
+{
+ background-color:#1e1d1d;
+ width:1140px;
+ min-height:50px;
+
+}	
+
+.menu ul
+{
+	list-style: none;
+	float:right;
+	
+}
+.menu ul li
+{
+	float: left;
+	padding-top:12px;
+}
+.menu ul li a
+{
+	color:#fff;
+	padding:5px 30px;
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: capitalize;
+	
+	font-family: 'Lato', sans-serif;
+
+}
+.menu ul li a:hover
+{
+	color:orange;
+	border:1px solid orange;
+	border-radius:15px;
+	
+	
+}
+.bg1
+{
+	background:#fff;
+	min-height:400px;
+	margin-right: 5px;
+}
+.p1
+{
+ 
+ border-radius:20px;
+ padding:10px 20px;
+font-family: 'Lato', sans-serif;
+text-align: justify;
+color:#605f5f;
+margin-top: 10px;
+background:#ddd;
+position: relative;
+
+}
+.p1:after
+{
+	content: "";
+	position:absolute;
+	left:40%;
+	top: -30px;
+	border:20px solid #eee;
+	border-color: transparent transparent #ddd transparent;
+}
+{
+	padding:10px 20px;
+	font-family: 'Lato', sans-serif;
+	text-align: justify;
+	color:#605f5f;
+
+}
+.bg2
+{
+	background:#fff;
+	
+	min-height:400px;
+}
+
+@media screen and (max-width: 1200px)
+{
+	 body
+	 {
+	background-color:red;
+	}
+}
+@media screen and (max-width: 768px)
+{
+	 body
+	 {
+	background-color:green;
+	}
+	
+	.colmd100
+	{
+		width:100%;
+		
+	}
+	.colmd50
+	{
+		width:50%;
+		float:left;
+	}
+	.container
+	{
+		width:750px;
+	}
+	.img-responsive
+    {
+    	width:100%;
+    	height:auto;
+    }
+    
+    .menu
+    {
+    	background-color: green;
+    }
+    .menu ul 
+    {
+    	float: none;
+    }
+    .menu ul li 
+    {
+    	float: none;
+    	color:#000;
+    	font-size: 12px;
+    }
+    .bg1
+    {
+    	min-height: 200px;
+    }
+}
+@media screen and (max-width: 480px)
+{
+	 body
+	 {
+	background-color:blue;
+	}
+    .colsm100
+    {
+    	width:100%;
+    }
+    .img-responsive
+    {
+    	width:100%;
+    	height:auto;
+    }
+    .conatiner
+    {
+    	width:460px;
+    }
+
+}
